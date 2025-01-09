@@ -188,9 +188,7 @@ const FunctionalColors: React.FC<{ darkMode?: boolean }> = ({
   </section>
 );
 
-const StateColors: React.FC<{ darkMode?: boolean }> = ({
-  darkMode = false,
-}) => (
+const StateColors: React.FC<{ darkMode?: boolean }> = ({}) => (
   <section>
     <h2 className="text-2xl font-semibold mb-4">State Colors</h2>
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
